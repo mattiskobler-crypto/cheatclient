@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatclient",
+  "version": "${version}",
+  "name": "Cheat Client",
+  "description": "Kleiner Cheat Client fuer Kreativwelten (Singleplayer).",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.cheatclient.CheatClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
